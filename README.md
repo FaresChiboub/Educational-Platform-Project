@@ -4,7 +4,7 @@
 
 ## 🚀 Deployment
 
-🌐 The server is live on Netlify: [Netflix Clone Site](https://universityplatformapp.netlify.app/)
+🌐 The server is live on Netlify: [University Platform Site](https://universityplatformapp.netlify.app/)
 
 ## 🛠️ Setup
 
