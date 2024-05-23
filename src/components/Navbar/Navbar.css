@@ -1,0 +1,81 @@
+nav {
+  width: 100%;
+  color: #fff;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+.menu_icon {
+  display: none;
+  width: 30px;
+  margin: 25px 10px;
+  cursor: pointer;
+}
+.logo {
+  width: 90px;
+  filter: hue-rotate(900deg);
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 16px;
+}
+.dark-nav {
+  background:url("/card.jpg");
+  background-size: cover;
+  transition: 0.5s;
+}
+a:hover {
+  color: rgb(86, 199, 212);
+}
+@media (max-width: 1050px) {
+  .logo {
+    width: 140px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+  a:hover {
+    color: rgb(80, 167, 25);
+  }
+}
+@media (max-width: 920px) {
+  nav {
+    padding: 15px 0;
+  }
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background:url("/card.jpg");
+  background-size: cover;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 20px 20px;
+  }
+  nav li {
+    text-align: center;
+    padding: 4px;
+  }
+  .menu_icon {
+    display: block;
+  }
+  .hide-mobile-menu {
+    right: -200px;
+  }
+  a:hover {
+    color: rgb(86, 199, 212);
+  }
+}

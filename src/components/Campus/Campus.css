@@ -1,0 +1,46 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img{
+    width: 23%;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+}
+.btn.dark-btn{
+    background: #f5ada0;
+    color: rgb(0, 0, 0);
+  filter:invert(100%);
+  font-weight: 600;
+
+}
+#mrgBtn{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+#mrgBtn:hover{
+    background-color: #a65757;
+}
+.gallery img:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    box-shadow: 1px 1px 10px solid black;
+}
+
+@media(max-width:860px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+    width: 48%;
+    margin-bottom: 25px;
+    }
+}
